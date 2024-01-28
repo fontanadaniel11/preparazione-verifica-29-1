@@ -1,0 +1,19 @@
+<form>
+  <div>
+    <label for = "label1">Pippo:</label>
+    <input name="label1"> #newlabel1>
+  </div>
+
+  <div>
+    <label for = "spam">Quanti grammi?:</label>
+    <input name="spam"> #newspam>
+  </div>
+
+  <button (click) "Spammer(newlabel1, newspam)">
+    Clicca qui
+  </button>
+</form>
+
+<p *ngFor = "let pippo of vettore">
+<app-stampa [x] = "pippo"> </app-stampa>
+</p>
